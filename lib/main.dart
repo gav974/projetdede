@@ -26,7 +26,7 @@ class DicePage extends StatelessWidget {
               child:
                 TextButton(
                     onPressed: () { print("Vous avez appuyé sur l'image de gauche");},
-                    child:Image.asset('asset/images/dice1.png')
+                    child:Image.asset('asset/images/dice$leftDiceNumber.png')
     )
     ),
 
@@ -34,12 +34,14 @@ class DicePage extends StatelessWidget {
               child:
                   TextButton(
                       onPressed: () { print("Vous avez appuyé sur l'image de droite");},
-                      child: Image.asset('asset/images/dice2.png')
+                      child: Image.asset('asset/images/dice$rightDiceNumber.png')
                   )
           ),
         ],
-
       ),
     );
   }
 }
+
+var leftDiceNumber = 5 ;
+var rightDiceNumber= 1 ;
