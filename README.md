@@ -1,6 +1,6 @@
 # projetdede
 
-prjet dede dans le cadre d'un projet flutter
+projet dede dans le cadre d'un projet flutter
 
 ## Getting Started
 
